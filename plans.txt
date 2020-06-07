@@ -1,0 +1,40 @@
+What I want to make:
+ - A tool for producing comments and guides for developers working on an existing project.
+
+Technology:
+ - Language: Python
+ - Format: YAML
+
+Usage:
+ - Terminal
+
+Features:
+ - How it works: 
+    - User: Programmer writes code in project. For each file where code is written, he creates a file
+      with an extension containing YAML formatted documentation, explanations and comments for each 
+      function, class, block, etc
+
+    - Tool: Parses through project directory and produces fomatted file as documentation for the 
+      code. Format can be HTML, TXT, PDF, etc with bookmarks included in the file.
+ - A schema diagram can be passed also to show workflow of each module of the program. A diagram 
+   will be created from the diagram given
+
+Tasks:
+ - Parser:
+ - Tree constructor
+ - Document seeker
+ - Document tree constructor
+ - Document parser for YAML:
+ - Document compiler
+ - Format generator
+ - Main caller
+ - Terminal use
+
+Timeline -> Title -> [date, detail]:
+ - Conceived idea:
+   - 12-04-2020
+   - Planned to use it for Bonychicken and E-learning project, shared idea with Musah, Idea
+     validated.
+ - Planning:
+   - 13-04-2020
+   - Started planning of the project, drafted structure of code, Ignored versioning for now.
